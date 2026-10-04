@@ -1,0 +1,283 @@
+# ChatNNL dictionary file
+# Used by dictionary-mode (DM) and hybrid (ADCM) typo correction.
+# Words listed under "words" are treated as valid; words under
+# "protected_words" are never corrected.
+
+max_edit_distance: 2
+min_word_length: 2
+auto_correct: true
+corpus_words_are_valid: true
+frequency_bonus: 1.0
+context_bonus: 2.5
+minimum_score: 0.72
+maximum_candidates: 5
+
+protected_words:
+  # Project and engine names
+  - chatnnl
+  - project
+  - non
+  - gguf
+  - qwen
+  - deepseek
+  - onnx
+  - rwkv
+  - lightgbm
+  - xgboost
+  - tfidf
+  - svd
+
+  # Programming languages and formats
+  - python
+  - javascript
+  - typescript
+  - rust
+  - golang
+  - java
+  - kotlin
+  - swift
+  - ruby
+  - php
+  - html
+  - css
+  - json
+  - yaml
+  - yml
+  - xml
+  - jsonl
+  - toml
+  - sql
+
+  # Common technology terms
+  - api
+  - cli
+  - gui
+  - url
+  - uri
+  - http
+  - https
+  - dns
+  - tcp
+  - udp
+  - ssh
+  - ftp
+  - tls
+  - ssl
+  - vpn
+  - cdn
+  - cors
+  - jwt
+  - oauth
+  - openid
+
+  # AI and ML terms
+  - ai
+  - ml
+  - llm
+  - llms
+  - gpu
+  - cpu
+  - ram
+  - tpu
+  - nlp
+  - cv
+  - rl
+  - gan
+  - cnn
+  - rnn
+  - lstm
+  - bert
+  - gpt
+
+  # Platforms and tools
+  - github
+  - gitlab
+  - bitbucket
+  - docker
+  - kubernetes
+  - k8s
+  - nginx
+  - apache
+  - redis
+  - postgres
+  - postgresql
+  - mysql
+  - sqlite
+  - mongodb
+  - kafka
+  - rabbitmq
+  - grafana
+  - prometheus
+
+  # Operating systems and platforms
+  - linux
+  - ubuntu
+  - debian
+  - fedora
+  - arch
+  - windows
+  - macos
+  - android
+  - ios
+
+words:
+  # Common English words with rough frequency weights.
+  about: 100000
+  above: 90000
+  after: 90000
+  again: 80000
+  against: 70000
+  all: 120000
+  also: 120000
+  always: 80000
+  answer: 100000
+  application: 70000
+  astronomy: 60000
+  because: 130000
+  before: 90000
+  between: 100000
+  computer: 120000
+  communication: 60000
+  concept: 60000
+  could: 120000
+  data: 130000
+  definition: 50000
+  development: 60000
+  different: 100000
+  dictionary: 45000
+  example: 90000
+  explain: 60000
+  feature: 70000
+  first: 120000
+  from: 180000
+  general: 70000
+  generate: 50000
+  generation: 60000
+  good: 130000
+  have: 180000
+  information: 100000
+  intelligence: 70000
+  language: 100000
+  learning: 90000
+  machine: 80000
+  model: 100000
+  network: 70000
+  neural: 50000
+  next: 90000
+  number: 90000
+  object: 70000
+  programming: 70000
+  question: 90000
+  reason: 70000
+  retrieval: 45000
+  science: 70000
+  sentence: 70000
+  should: 100000
+  simple: 60000
+  software: 80000
+  space: 70000
+  statistical: 50000
+  system: 130000
+  technical: 50000
+  technology: 80000
+  term: 70000
+  text: 120000
+  that: 220000
+  their: 160000
+  there: 150000
+  these: 130000
+  they: 170000
+  this: 200000
+  through: 120000
+  token: 60000
+  topic: 60000
+  under: 90000
+  use: 160000
+  useful: 70000
+  using: 140000
+  version: 60000
+  very: 130000
+  vocabulary: 45000
+  what: 170000
+  when: 100000
+  where: 90000
+  which: 150000
+  while: 100000
+  with: 190000
+  word: 150000
+  work: 130000
+  would: 140000
+
+  # Domain words used across the sample corpus.
+  algorithm: 60000
+  application: 70000
+  array: 55000
+  atomic: 45000
+  binary: 55000
+  blockchain: 40000
+  byte: 50000
+  cache: 45000
+  cellular: 40000
+  checksum: 35000
+  chemical: 50000
+  compiler: 45000
+  container: 50000
+  cryptography: 40000
+  database: 60000
+  debugging: 45000
+  deep: 70000
+  directory: 50000
+  distributed: 50000
+  docker: 45000
+  documentation: 45000
+  element: 60000
+  encryption: 45000
+  engine: 50000
+  evolution: 50000
+  firewall: 40000
+  function: 60000
+  genetic: 40000
+  github: 50000
+  gravity: 45000
+  hardware: 50000
+  hash: 45000
+  index: 55000
+  interpreter: 45000
+  kubernetes: 40000
+  library: 55000
+  list: 90000
+  memory: 70000
+  module: 50000
+  molecule: 55000
+  network: 70000
+  node: 55000
+  object: 70000
+  operating: 50000
+  packet: 50000
+  physics: 50000
+  planet: 45000
+  pointer: 45000
+  protocol: 55000
+  queue: 50000
+  recursion: 40000
+  refactoring: 40000
+  repository: 50000
+  routing: 45000
+  rust: 50000
+  satellite: 45000
+  search: 70000
+  sort: 55000
+  stack: 55000
+  storage: 55000
+  structure: 60000
+  subroutine: 40000
+  syntax: 55000
+  test: 80000
+  thread: 55000
+  translation: 55000
+  transport: 50000
+  tree: 60000
+  variable: 55000
+  virtual: 45000
+  vpn: 40000
+  web: 80000
