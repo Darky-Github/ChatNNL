@@ -1,0 +1,209 @@
+{
+  "greetings": {
+    "hi": "Hello! I am ChatNNL, a statistical chatbot. How can I help you today?",
+    "hello": "Hello there! I am ChatNNL. What would you like to know?",
+    "hey": "Hey! I am ChatNNL. Ask me anything from my corpus.",
+    "hiya": "Hiya! ChatNNL here. What can I help you with?",
+    "greetings": "Greetings! I am ChatNNL. How may I assist you?",
+    "yo": "Yo! ChatNNL at your service. What's up?",
+    "good morning": "Good morning! I am ChatNNL. What can I help you with?",
+    "good afternoon": "Good afternoon! ChatNNL here. How can I assist?",
+    "good evening": "Good evening! ChatNNL here. What would you like to know?",
+    "how are you": "I am a statistical engine, so I am always running smoothly. How can I help you?",
+    "who are you": "I am ChatNNL, a neural-network-less statistical chatbot built on n-gram language modeling.",
+    "what is your name": "My name is ChatNNL, short for Chat Neural-Network-Less.",
+    "thanks": "You are welcome!",
+    "thank you": "You are welcome! Let me know if you have more questions.",
+    "bye": "Goodbye! Come back anytime.",
+    "goodbye": "Goodbye! Have a great day.",
+    "see you": "See you later!",
+    "help": "You can ask me questions about the topics in my corpus, request definitions, advantages, disadvantages, or comparisons."
+  },
+  "machine learning": {
+    "answer": "Machine learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed.",
+    "category": "DEFINITION",
+    "see_also": ["artificial intelligence", "deep learning", "neural network"]
+  },
+  "artificial intelligence": {
+    "answer": "Artificial intelligence is the simulation of human intelligence processes by computer systems, including learning, reasoning, and self-correction.",
+    "category": "DEFINITION",
+    "see_also": ["machine learning", "deep learning"]
+  },
+  "deep learning": {
+    "answer": "Deep learning is a subfield of machine learning that uses neural networks with many layers to model complex patterns in data.",
+    "category": "DEFINITION",
+    "see_also": ["machine learning", "neural network"]
+  },
+  "neural network": {
+    "answer": "A neural network is a computing system inspired by the biological neural networks in animal brains, composed of interconnected nodes that process information.",
+    "category": "DEFINITION",
+    "see_also": ["deep learning", "machine learning"]
+  },
+  "chatnnl": {
+    "answer": "ChatNNL is a statistical chatbot engine that builds language models from text corpora using n-gram statistics. It uses no neural networks, no deep learning, and no GPU.",
+    "category": "DEFINITION",
+    "see_also": ["n-gram", "language model"]
+  },
+  "n-gram": {
+    "answer": "An n-gram is a contiguous sequence of n items from a given sample of text. ChatNNL uses bigrams, trigrams, fourgrams, and fivegrams for generation.",
+    "category": "DEFINITION"
+  },
+  "language model": {
+    "answer": "A language model is a statistical model that assigns probabilities to sequences of words. ChatNNL builds one from n-gram counts over a corpus.",
+    "category": "DEFINITION"
+  },
+  "python": {
+    "answer": "Python is a high-level, interpreted programming language known for its readability and simplicity. It is widely used in data science, machine learning, web development, and automation.",
+    "category": "DEFINITION",
+    "advantages": [
+      "Readable syntax",
+      "Large standard library",
+      "Extensive third-party ecosystem",
+      "Strong community support",
+      "Excellent documentation"
+    ],
+    "disadvantages": [
+      "Slower execution speed compared to compiled languages",
+      "Higher memory usage",
+      "Global interpreter lock limits true multithreading"
+    ]
+  },
+  "javascript": {
+    "answer": "JavaScript is a programming language that runs in web browsers and on servers through Node.js. It is the most widely used language for building interactive web pages.",
+    "category": "DEFINITION",
+    "advantages": [
+      "Runs everywhere, from browsers to servers",
+      "Huge ecosystem through npm",
+      "Asynchronous programming model",
+      "Fast prototyping"
+    ],
+    "disadvantages": [
+      "Dynamic typing can cause runtime errors",
+      "Many competing frameworks",
+      "Inconsistent browser behavior historically"
+    ]
+  },
+  "rust": {
+    "answer": "Rust is a systems programming language focused on safety, speed, and concurrency. It prevents many common programming errors at compile time without a garbage collector.",
+    "category": "DEFINITION",
+    "advantages": [
+      "Memory safety without garbage collection",
+      "Zero-cost abstractions",
+      "Excellent concurrency support",
+      "Strong type system"
+    ],
+    "disadvantages": [
+      "Steep learning curve",
+      "Longer compile times",
+      "Smaller ecosystem than older languages"
+    ]
+  },
+  "sql": {
+    "answer": "SQL is a domain specific language used for managing and querying relational databases.",
+    "category": "DEFINITION"
+  },
+  "database": {
+    "answer": "A database is an organized collection of structured information stored electronically. A relational database stores data in tables with rows and columns.",
+    "category": "DEFINITION"
+  },
+  "git": {
+    "answer": "Git is a distributed version control system for tracking changes in source code during software development.",
+    "category": "DEFINITION"
+  },
+  "github": {
+    "answer": "GitHub is a platform for hosting and collaborating on Git repositories, with features for code review, issue tracking, and CI/CD.",
+    "category": "DEFINITION"
+  },
+  "docker": {
+    "answer": "Docker is a platform for building, running, and sharing containerized applications.",
+    "category": "DEFINITION"
+  },
+  "kubernetes": {
+    "answer": "Kubernetes is an open source system for automating the deployment, scaling, and management of containerized applications.",
+    "category": "DEFINITION"
+  },
+  "http": {
+    "answer": "HTTP is the protocol used to transfer data on the World Wide Web.",
+    "category": "DEFINITION"
+  },
+  "dns": {
+    "answer": "DNS translates human readable domain names into IP addresses.",
+    "category": "DEFINITION"
+  },
+  "encryption": {
+    "answer": "Encryption is the process of converting information into a code to prevent unauthorized access.",
+    "category": "DEFINITION"
+  },
+  "blockchain": {
+    "answer": "A blockchain is a distributed ledger that records transactions across many computers in a way that is difficult to alter retroactively.",
+    "category": "DEFINITION"
+  },
+  "photosynthesis": {
+    "answer": "Photosynthesis is the process by which green plants convert sunlight into chemical energy, producing oxygen as a byproduct.",
+    "category": "DEFINITION"
+  },
+  "gravity": {
+    "answer": "Gravity is the force by which a planet or other body draws objects toward its center.",
+    "category": "DEFINITION"
+  },
+  "speed of light": {
+    "answer": "The speed of light in a vacuum is approximately three hundred million meters per second.",
+    "category": "DEFINITION"
+  },
+  "water": {
+    "answer": "Water boils at one hundred degrees Celsius and freezes at zero degrees Celsius at standard atmospheric pressure.",
+    "category": "DEFINITION"
+  },
+  "algorithm": {
+    "answer": "An algorithm is a finite sequence of well defined instructions used to solve a problem or perform a computation.",
+    "category": "DEFINITION"
+  },
+  "data structure": {
+    "answer": "A data structure is a way of organizing data in memory to enable efficient access and modification.",
+    "category": "DEFINITION"
+  },
+  "binary search": {
+    "answer": "Binary search finds a target value in a sorted array by repeatedly halving the search range. Its time complexity is logarithmic in the size of the input.",
+    "category": "DEFINITION"
+  },
+  "recursion": {
+    "answer": "Recursion is a programming technique where a function calls itself to solve smaller subproblems.",
+    "category": "DEFINITION"
+  },
+  "cloud computing": {
+    "answer": "Cloud computing is the delivery of computing services over the Internet, including storage, processing, and networking.",
+    "category": "DEFINITION"
+  },
+  "container": {
+    "answer": "A container packages an application and its dependencies into a single unit that can run consistently across environments.",
+    "category": "DEFINITION"
+  },
+  "cache": {
+    "answer": "A cache stores frequently accessed data to reduce latency and improve performance.",
+    "category": "DEFINITION"
+  },
+  "firewall": {
+    "answer": "A firewall monitors and controls incoming and outgoing network traffic based on security rules.",
+    "category": "DEFINITION"
+  },
+  "vpn": {
+    "answer": "A VPN creates a secure encrypted connection over a public network.",
+    "category": "DEFINITION"
+  },
+  "unit test": {
+    "answer": "A unit test verifies the behavior of individual functions or methods in isolation.",
+    "category": "DEFINITION"
+  },
+  "debugging": {
+    "answer": "Debugging is the process of finding and fixing defects in software.",
+    "category": "DEFINITION"
+  },
+  "refactoring": {
+    "answer": "Refactoring improves the internal structure of code without changing its external behavior.",
+    "category": "DEFINITION"
+  },
+  "technical debt": {
+    "answer": "Technical debt is the cost of additional rework caused by choosing an easy solution now instead of a better approach that would take longer.",
+    "category": "DEFINITION"
+  }
+}
