@@ -1,0 +1,110 @@
+ChatNNL is a statistical chatbot engine that builds language models from text corpora using n-gram statistics.
+ChatNNL does not use neural networks, deep learning, or GPU acceleration.
+ChatNNL retrieves relevant sentences from a corpus and generates new sentences using weighted probabilistic sampling.
+Machine learning is a subset of artificial intelligence that enables systems to learn from data.
+Machine learning models improve their performance as they are exposed to more data.
+Deep learning is a subfield of machine learning that uses neural networks with many layers.
+Neural networks are computing systems inspired by the biological neural networks in animal brains.
+Artificial intelligence is the simulation of human intelligence processes by computer systems.
+Natural language processing is a branch of artificial intelligence concerned with the interaction between computers and human language.
+Python is a high-level, interpreted programming language known for its readability and simplicity.
+Python is widely used in data science, machine learning, web development, and automation.
+JavaScript is a programming language that runs in web browsers and on servers through Node.js.
+JavaScript is the most widely used language for building interactive web pages.
+Rust is a systems programming language focused on safety, speed, and concurrency.
+Rust prevents many common programming errors at compile time without a garbage collector.
+The advantages of Python include its readable syntax, large standard library, and extensive ecosystem of third-party packages.
+The advantages of Python include strong community support and excellent documentation.
+The disadvantages of Python include slower execution speed compared to compiled languages.
+The disadvantages of Python include higher memory usage and the global interpreter lock.
+The advantages of machine learning include the ability to automate complex decision making.
+The advantages of machine learning include the ability to find patterns that humans might miss.
+The disadvantages of machine learning include the need for large amounts of high quality data.
+The disadvantages of machine learning include the risk of bias and the difficulty of interpretation.
+A database is an organized collection of structured information stored electronically.
+A relational database stores data in tables with rows and columns and uses SQL for queries.
+SQL is a domain specific language used for managing and querying relational databases.
+An operating system is system software that manages computer hardware and software resources.
+Linux is a family of open source operating systems based on the Unix design.
+The Internet is a global network of interconnected computers that communicate using standard protocols.
+The World Wide Web is an information system where documents and other resources are identified by URLs.
+HTTP is the protocol used to transfer data on the World Wide Web.
+DNS translates human readable domain names into IP addresses.
+Encryption is the process of converting information into a code to prevent unauthorized access.
+A blockchain is a distributed ledger that records transactions across many computers.
+Cryptocurrency is a digital currency that uses cryptography for security.
+The theory of relativity was developed by Albert Einstein in the early twentieth century.
+The theory of relativity describes the relationship between space and time.
+Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales.
+Photosynthesis is the process by which green plants convert sunlight into chemical energy.
+The water cycle describes the continuous movement of water on, above, and below the surface of the Earth.
+The solar system consists of the Sun and the objects that orbit it, including eight planets.
+The Earth is the third planet from the Sun and the only known planet to support life.
+The Moon is Earth's only natural satellite.
+Mars is the fourth planet from the Sun and is often called the Red Planet.
+Jupiter is the largest planet in the solar system and has a prominent system of rings and moons.
+A star is a luminous sphere of plasma held together by its own gravity.
+A galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter.
+The Milky Way is the galaxy that contains our solar system.
+The Big Bang theory describes the origin of the universe from an initial extremely hot and dense state.
+Evolution is the change in the heritable characteristics of biological populations over successive generations.
+DNA is the molecule that carries the genetic instructions for the development and functioning of living organisms.
+A cell is the basic structural and functional unit of all living organisms.
+The human brain is the central organ of the nervous system and controls most activities of the body.
+The heart is a muscular organ that pumps blood through the circulatory system.
+Photosynthesis occurs in the chloroplasts of plant cells.
+Water boils at one hundred degrees Celsius at standard atmospheric pressure.
+Water freezes at zero degrees Celsius at standard atmospheric pressure.
+The speed of light in a vacuum is approximately three hundred million meters per second.
+Gravity is the force by which a planet or other body draws objects toward its center.
+An atom is the smallest unit of ordinary matter that forms a chemical element.
+A molecule is a group of two or more atoms held together by chemical bonds.
+The periodic table organizes chemical elements by atomic number.
+Oxygen is a chemical element with the symbol O and atomic number eight.
+Hydrogen is the lightest and most abundant chemical element in the universe.
+Carbon is the chemical element with the symbol C and atomic number six.
+A computer program is a collection of instructions that a computer can execute.
+A variable is a named storage location in memory that holds a value.
+A function is a reusable block of code that performs a specific task.
+An algorithm is a finite sequence of well defined instructions used to solve a problem.
+Data structures organize data in memory to enable efficient access and modification.
+An array is a data structure that stores elements in contiguous memory locations.
+A linked list is a linear data structure where each element points to the next.
+A stack is a last in first out data structure.
+A queue is a first in first out data structure.
+A tree is a hierarchical data structure with a root node and child nodes.
+A binary search tree is a tree data structure where each node has at most two children.
+A hash table maps keys to values using a hash function.
+Sorting arranges elements in a specific order, usually ascending or descending.
+Searching finds the location of a target value within a collection of data.
+Binary search finds a target value in a sorted array by repeatedly halving the search range.
+Recursion is a technique where a function calls itself to solve smaller subproblems.
+Big O notation describes the upper bound of an algorithm's running time or space usage.
+The time complexity of binary search is logarithmic in the size of the input.
+The time complexity of merge sort is linearithmic in the size of the input.
+Cloud computing is the delivery of computing services over the Internet.
+A container packages an application and its dependencies into a single unit.
+Docker is a platform for building, running, and sharing containerized applications.
+Kubernetes is an open source system for automating the deployment and scaling of containerized applications.
+Git is a distributed version control system for tracking changes in source code.
+GitHub is a platform for hosting and collaborating on Git repositories.
+Continuous integration automatically builds and tests code changes as they are committed.
+Continuous deployment automatically releases validated code changes to production.
+A load balancer distributes incoming network traffic across multiple servers.
+A cache stores frequently accessed data to reduce latency.
+A CDN is a geographically distributed network of servers that delivers web content.
+A firewall monitors and controls incoming and outgoing network traffic.
+A VPN creates a secure encrypted connection over a public network.
+Public key cryptography uses a pair of keys, one public and one private, for encryption and digital signatures.
+A hash function maps data of arbitrary size to fixed size values.
+A checksum is a small sized block of data derived from a larger block for error detection.
+The most common cause of software bugs is misunderstanding of requirements.
+Testing verifies that software behaves as expected under various conditions.
+Unit tests verify the behavior of individual functions or methods.
+Integration tests verify that multiple components work together correctly.
+Debugging is the process of finding and fixing defects in software.
+Refactoring improves the internal structure of code without changing its external behavior.
+Code review is the practice of having other developers examine code before it is merged.
+Technical debt is the cost of additional rework caused by choosing an easy solution now instead of a better approach.
+Documentation explains how software works and how to use it.
+Good documentation saves time for both developers and users.
