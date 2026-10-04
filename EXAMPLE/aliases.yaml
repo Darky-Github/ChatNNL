@@ -1,0 +1,211 @@
+# ChatNNL alias file
+# Each concept maps to a list of surface forms that should be treated as
+# equivalent during retrieval, target extraction, and expansion.
+
+machine learning:
+  - ml
+  - machine-learning
+
+artificial intelligence:
+  - ai
+  - artificial-intelligence
+
+deep learning:
+  - dl
+  - deep-learning
+
+neural network:
+  - neural networks
+  - neural-net
+  - nn
+
+natural language processing:
+  - nlp
+  - natural-language-processing
+
+chatnnl:
+  - chat nnl
+  - chat-nnl
+  - nnl
+
+n-gram:
+  - ngram
+  - n gram
+  - ngrams
+
+language model:
+  - lm
+  - language models
+
+python:
+  - py
+  - python3
+
+javascript:
+  - js
+  - nodejs
+  - node.js
+
+typescript:
+  - ts
+
+rust:
+  - rust-lang
+  - rustlang
+
+sql:
+  - structured query language
+
+database:
+  - db
+  - databases
+
+relational database:
+  - rdbms
+  - relational db
+
+operating system:
+  - os
+
+linux:
+  - gnu/linux
+  - gnu linux
+
+internet:
+  - the internet
+  - net
+
+world wide web:
+  - www
+  - web
+
+http:
+  - hypertext transfer protocol
+
+https:
+  - http secure
+  - http over tls
+
+dns:
+  - domain name system
+
+url:
+  - uri
+  - web address
+
+ip address:
+  - ip
+  - ipv4
+  - ipv6
+
+api:
+  - application programming interface
+
+json:
+  - javascript object notation
+
+yaml:
+  - yml
+
+xml:
+  - extensible markup language
+
+html:
+  - hypertext markup language
+
+css:
+  - cascading style sheets
+
+git:
+  - git scm
+
+github:
+  - gh
+
+docker:
+  - docker container
+
+kubernetes:
+  - k8s
+
+cloud computing:
+  - the cloud
+  - cloud
+
+container:
+  - containers
+  - containerization
+
+cache:
+  - caching
+  - cached
+
+firewall:
+  - firewalls
+
+vpn:
+  - virtual private network
+
+encryption:
+  - encrypt
+  - encrypted
+
+blockchain:
+  - block chain
+
+cryptocurrency:
+  - crypto
+  - cryptocurrencies
+
+photosynthesis:
+  - photo synthesis
+
+gravity:
+  - gravitational force
+
+speed of light:
+  - c
+  - lightspeed
+  - light speed
+
+water:
+  - h2o
+
+algorithm:
+  - algorithms
+
+data structure:
+  - data structures
+
+binary search:
+  - bisect
+  - binary-search
+
+recursion:
+  - recursive
+  - recursive function
+
+cloud storage:
+  - object storage
+
+unit test:
+  - unit testing
+  - unit tests
+
+integration test:
+  - integration testing
+  - integration tests
+
+debugging:
+  - debug
+  - debugger
+
+refactoring:
+  - refactor
+
+technical debt:
+  - tech debt
+
+documentation:
+  - docs
+  - doc
