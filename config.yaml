@@ -1,0 +1,47 @@
+corpora:
+  text:
+    - EXAMPLE/corpus.txt
+  json:
+    - EXAMPLE/corpus.json
+
+aliases:
+  - EXAMPLE/aliases.yaml
+
+dictionary:
+  - EXAMPLE/dictionary.yaml
+
+typo_correction:
+  mode: adcm
+
+generation:
+  temperature: 0.75
+  max_tokens: 32
+  min_tokens: 5
+  attempts_per_seed: 3
+  max_candidates: 10
+
+scoring:
+  retrieval:
+    coverage_weight: 7.0
+    phrase_weight: 5.0
+    question_fit_weight: 8.0
+    definition_fit_weight: 8.0
+    topic_fit_weight: 7.0
+    definition_extra_fit_weight: 10.0
+    definition_extra_question_weight: 8.0
+    confidence_strength_divisor: 30.0
+    confidence_single_divisor: 25.0
+    confidence_strength_weight: 0.7
+    confidence_separation_weight: 0.3
+  generation:
+    relevance_weight: 8.0
+    answer_fit_weight: 7.0
+    language_weight: 0.30
+    repetition_penalty: 4.0
+    parroting_penalty: 2.0
+    topic_candidate_multiplier: 2.5
+    confidence_divisor: 15.0
+    confidence_strength_weight: 0.5
+    confidence_separation_weight: 0.2
+    confidence_evidence_weight: 0.3
+    router_generation_margin: 0.08
